@@ -1,0 +1,138 @@
+/* basic page style for all pages */
+body {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 900px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(0, 0%, 97%);
+    color: #333;
+}
+
+/* paragraph font different from browser defaults */
+p {
+    font-family: 'Georgia', serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* heading styles for all pages */
+h1,
+h2,
+h3 {
+    font-family: 'Arial', Helvetica, sans-serif;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+/* link styles for all pages */
+a {
+    color: hsl(204, 100%, 29%);
+    text-decoration: none;
+    padding: 4px 6px;
+}
+
+a:visited {
+    color: #7a3f98;
+}
+
+a:hover {
+    background-color: #d9f0ff;
+}
+
+a:active {
+    color: #d64161;
+}
+
+/* special styles for about_me and more_about_me pages */
+.about-page section,
+.more-page section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #c7d2e6;
+    border-radius: 8px;
+}
+
+/* special style for about_me sections */
+#my_background {
+    background-color: #e6f4ff;
+}
+
+#my_interests {
+    background-color: #fff3e6;
+}
+
+/* style for h2 elements nested inside section on the about me page */
+.about-page section h2 {
+    color: #2c6f95;
+    border-bottom: 2px solid #2c6f95;
+    padding-bottom: 6px;
+}
+
+/* topic of interest page */
+.topic-header,
+.topic-card {
+    background-color: #ffffff;
+    border: 1px solid #d7e1ea;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.topic-card button,
+.topic-card input[type="button"] {
+    background-color: #2c6f95;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.topic-card button:hover,
+.topic-card input[type="button"]:hover {
+    background-color: #1f5676;
+}
+
+#image1 {
+    display: block;
+    width: 100%;
+    max-width: 520px;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+#paragraph2 {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: fit-content;
+    margin-top: 16px;
+    padding: 14px 18px;
+    background-color: #e6f4ff;
+    border: 1px solid #9fc8e2;
+    border-radius: 8px;
+}
+
+/* extra credit part */
+#travel-title {
+    cursor: pointer;
+}
+
+.extra-credit-note {
+    margin-top: 12px;
+    color: #2c6f95;
+    font-size: 16px;
+}
