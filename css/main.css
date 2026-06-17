@@ -136,3 +136,81 @@ a:active {
     color: #2c6f95;
     font-size: 16px;
 }
+
+/* user experience design page */
+.prototype,
+.wireframes,
+.site_map {
+    background-color: #ffffff;
+    border: 1px solid #d7e1ea;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.ux-header {
+    text-align: center;
+}
+
+.ux-layout h2 {
+    color: #2c6f95;
+    margin-bottom: 10px;
+}
+
+.prototype-link {
+    display: inline-block;
+    background-color: #2c6f95;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px 16px;
+}
+
+.prototype-link:visited {
+    color: #ffffff;
+}
+
+.prototype-link:hover {
+    background-color: #1f5676;
+}
+
+.wireframe-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+    margin-top: 18px;
+}
+
+.wireframe-card,
+.site-map-card {
+    margin: 0;
+    padding: 14px;
+    border: 1px solid #d7e1ea;
+    border-radius: 10px;
+    background-color: #fbfdff;
+}
+
+.wireframe-card img,
+.site-map-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.wireframe-card figcaption,
+.site-map-card figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #4b5563;
+}
+
+.site-map-card {
+    max-width: 760px;
+    margin-top: 18px;
+}
+
+.back-home {
+    text-align: center;
+    margin-bottom: 30px;
+}
